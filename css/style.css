@@ -1,5 +1,168 @@
-body {
-  background-color: rgb(225, 230, 230);
-  color: rgb(77, 5, 77);
+
+/* цвет основного текса #757575 */
+/* цвет заголовков #212121 */
+/* цвет текста курсор #2196F3 */
+/* лого #2196F3 + #212121 */
+/* цвет основного фона #FFFFFF */
+/* цвет дополнительного фона #F5F4FA */
+/* цвет фона services и footer #2F303A */
+
+:root {
+  --primary-text-color: #757575;
+  --secondary-text-color: #2196F3;
+  --title-text-color: #212121;
+  --primary-font-color: #FFFFFF;
+  --secondary-font-color: #F5F4FA;
+  --third-font-color: #2F303A;
+  
 }
 
+body {
+  background-color: var(--primary-font-color);
+  color: var(--primary-text-color);
+  font-family: roboto, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1,7px;
+  }
+
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+  font-family: roboto, sans-serif;
+  color: var(--title-text-color);
+ } 
+
+li {
+  list-style: none;
+}
+
+.logo {
+  color: var(--title-text-color);
+  text-decoration: none;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1,2;
+}
+
+.logo-color {
+      color: var(--secondary-text-color);
+    }
+
+.nav-link {
+  color: var(--title-text-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1,1;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--secondary-text-color);
+}
+
+.contact-link {
+color: var(--primary-text-color);
+text-decoration: none;
+font-weight: 500;
+font-size: 14px;
+line-height: 1,1;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+color: var(--secondary-text-color);
+}
+
+/* Главная страница */
+
+.services {
+background-color: var(--third-font-color);
+font-weight: 900;
+font-size: 44px;
+line-height: 1,4;
+}
+
+.services-title {
+color: white;
+text-transform: uppercase;
+}
+
+.button-services {
+background-color: var(--secondary-text-color) ;
+color: var(--primary-font-color);
+font-weight: 700;
+font-size: 16px;
+line-height: 1,9;
+cursor: pointer;
+border: none;
+}
+
+.advantages-title {
+font-weight: 700;
+font-size: 14px;
+line-height: 1,1;
+}
+
+.advantages-text {
+font-size: 14px;
+line-height: 1,1;
+}
+
+.activity-title,
+.team-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1,2;
+}
+
+.people-name {
+font-weight: 500;
+font-size: 16px;
+line-height: 1,2;
+}
+
+.position {
+font-size: 16px;
+line-height: 1,2;
+}
+
+
+/* Futter */
+.address-text {
+line-height: 1,7;
+}
+
+/* Страница портфолио */
+
+.button-portfolio {
+background-color: var(--secondary-font-color) ;
+color: var(--title-text-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 1,6;
+cursor: pointer;
+border: none;
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus {
+  background-color: var(--secondary-text-color);
+  color: var(--primary-font-color);
+}
+
+.work-title {
+font-weight: 700;
+font-size: 18px;
+line-height: 2px;
+}
+
+.work-text {
+font-size: 16px;
+line-height: 1,9px;
+}
