@@ -61,6 +61,14 @@ li {
   line-height: 1,1;
 }
 
+.nav-link-active {
+color: var(--secondary-text-color);
+text-decoration: none;
+font-weight: 500;
+font-size: 14px;
+line-height: 1,1;
+}
+
 .nav-link:hover,
 .nav-link:focus {
   color: var(--secondary-text-color);
@@ -136,6 +144,7 @@ line-height: 1,2;
 /* Futter */
 .address-text {
 line-height: 1,7;
+font-style: normal;
 }
 
 /* Страница портфолио */
@@ -165,4 +174,12 @@ line-height: 2px;
 .work-text {
 font-size: 16px;
 line-height: 1,9px;
+}
+
+.footer-block {
+background-color: var(--third-font-color);
+}
+
+.logo-color-secondary {
+color: var(--primary-font-color);
 }
